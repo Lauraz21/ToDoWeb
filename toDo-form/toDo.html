@@ -12,27 +12,24 @@
     <div id="todoTasks" class="border">
         <div class="user">User: <span id="userName"></span> 
         </div>
-      
-      <div id="addBox" class="todo" >
+        <button class="buttons"onclick="Add()">Add</button><br>
+        <div id="addBox" class="todo" >
         <div>
-            <button class="buttons"onclick="Add()">Add</button><br>
-
             <label>Type:</label>
             <input class="textBox" type="text" id="TypeBox" placeholder="e.g. hair salon">
         </div>
-        <div >
+        <div>
             <label>Content:</label> 
             <input class="textBox" type="text" id="ContentBox" placeholder="e.g. female haircut">
         </div>
-        <div >
+        <div>
             <label>EndData:</label>
             <input class="textBox" type="datetime-local" id="endDateBox">
         </div>
         <br>
         <button class="buttons"onclick="SubmitTask()">Submit</button>
-    </div>
-    </div>
+        </div>
+        </div>
         <script src="./toDo.js"></script>
-
     </body>
 </html>

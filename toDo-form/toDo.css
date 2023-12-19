@@ -1,4 +1,3 @@
-
 .todo {
   border-style: hidden;
   border-radius: 10px;
@@ -8,9 +7,8 @@
   font-size: 30px;
   text-align: center;
   background-color: whitesmoke;
-  color: rgb(59, 58, 58);  
+  color: rgb(59, 58, 58);
 }
-
 .user {
   text-align: left;
   font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
@@ -20,44 +18,43 @@
   color: rgb(59, 58, 58);
   border-top: 50px solid rgb(99, 98, 98);
   border-top-left-radius: 10px;
-  border-top-right-radius: 10px; 
+  border-top-right-radius: 10px;
 }
-
 .buttons {
-    font-size: 25px;
-    border-radius: 5px;
-    border-style: solid;
-    border-color: rgb(145, 145, 145);
-    background-color:rgba(145, 145, 145, 0.158);
-    color: rgb(59, 58, 58);
-    padding: auto;
-    margin: 15px;   
-} 
-
+  font-size: 25px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: rgb(145, 145, 145);
+  background-color: rgba(145, 145, 145, 0.158);
+  color: rgb(59, 58, 58);
+  padding: auto;
+  margin: 15px;
+}
 label {
-    margin: 0 auto;
-     display: block;
-     font-size: 25px;
-     color: rgb(59, 58, 58);
-     padding: 5px;
+  margin: 0 auto;
+  display: block;
+  font-size: 25px;
+  color: rgb(59, 58, 58);
+  padding: 5px;
 }
-
 .textBox {
-    width: 20em;
-    font-size: 20px;
-    border-radius: 5px;
-    border-style: solid;
-    border-color: rgb(121, 121, 121);
-    color: rgb(59, 58, 58);
-    padding: 5px;
+  width: 20em;
+  font-size: 20px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: rgb(121, 121, 121);
+  color: rgb(59, 58, 58);
+  padding: 5px;
 }
-
 .tasksBtn {
-    width: 20em;
-    font-size: 20px;
-    border-radius: 5px;
-    border-style: solid;
-    border-color: rgb(121, 121, 121);
-    color: rgb(59, 58, 58);
-    padding: 5px;
+  width: 20em;
+  font-size: 20px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: rgb(121, 121, 121);
+  color: rgb(59, 58, 58);
+  padding: 5px;
+}
+#addBox {
+  display: none;
 }

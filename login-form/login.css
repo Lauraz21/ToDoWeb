@@ -1,20 +1,18 @@
 .border2 {
   margin-bottom: 60em;
 }
-
 h2 {
   font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
   font-size: 50px;
+  text-align: center;
   margin: 0;
   padding: 40px;
-  text-align: center;
   background-color: whitesmoke;
   color: rgb(59, 58, 58);
   border-top: 50px solid rgb(99, 98, 98);
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
-
 .nameBox {
   width: 200px;
   font-size: 30px;
@@ -28,7 +26,6 @@ h2 {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
 .passwordBox {
   width: 200px;
   font-size: 30px;
@@ -42,7 +39,6 @@ h2 {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
 .btnsubmit {
   width: 200px;
   font-size: 30px;
@@ -57,7 +53,6 @@ h2 {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
 footer {
   margin: 0px;
   padding: 100px;

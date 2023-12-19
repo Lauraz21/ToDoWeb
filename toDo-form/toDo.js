@@ -1,5 +1,5 @@
 document.getElementById("userName").textContent =
-  localStorage.getItem("userName");
+localStorage.getItem("userName");
 
 fetch(`https://localhost:7171/api/ToDo`, {
   method: "GET",
@@ -60,8 +60,18 @@ function CreateElement(taskData) {
   taskDiv.className = "todo";
 
   CreateField("Type:", taskData.type, taskDiv, "TypeInput" + taskData.id);
-  CreateField("Content:", taskData.content, taskDiv, "ContentInput" + taskData.id);
-  CreateField("EndDate:", taskData.endDate, taskDiv, "EndDateInput" + taskData.id);
+  CreateField(
+    "Content:",
+    taskData.content,
+    taskDiv,
+    "ContentInput" + taskData.id
+  );
+  CreateField(
+    "EndDate:",
+    taskData.endDate,
+    taskDiv,
+    "EndDateInput" + taskData.id
+  );
 
   const saveButton = document.createElement("button");
   saveButton.textContent = "Save";
@@ -96,7 +106,6 @@ function saveTask(taskId) {
   const type = document.getElementById("TypeInput" + taskId).value;
   const content = document.getElementById("ContentInput" + taskId).value;
   const endDate = document.getElementById("EndDateInput" + taskId).value;
-
 
   const data = {
     userId: localStorage.getItem("userId"),
